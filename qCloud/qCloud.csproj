@@ -38,19 +38,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="css\site.css" />
+    <Content Include="contents\site.css" />
     <Content Include="index.html" />
-    <Content Include="qCloud.ico" />
+    <Content Include="icon.ico" />
     <Content Include="scripts\board.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="contents\images\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\w2ui-1.3.1.css" />
-    <Content Include="scripts\jquery-2.1.0.js" />
-    <Content Include="scripts\pixi.js" />
-    <Content Include="scripts\w2ui-1.3.1.js" />
+    <Content Include="contents\w2ui-1.3.1.css" />
+    <Content Include="scripts\libs\jquery-2.1.0.js" />
+    <Content Include="scripts\layout.js" />
+    <Content Include="scripts\libs\pixi-1.3.0.js" />
+    <Content Include="scripts\libs\pixi-1.5.1.js" />
+    <Content Include="scripts\libs\w2ui-1.3.1.js" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
