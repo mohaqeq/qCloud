@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>qCloud</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
+    <link href="contents/site.css" rel="stylesheet" />
+    <link href="contents/w2ui-1.3.1.css" rel="stylesheet" />
+    <script src="scripts/libs/jquery-2.1.0.js"></script>
+    <script src="scripts/libs/w2ui-1.3.1.js"></script>
+    <script src="scripts/libs/pixi-1.5.1.js"></script>
+    <script src="scripts/layout.js"></script>
+    <script src="scripts/board.js"></script>
+</head>
+<body>
+    <div id="layout" style="width: 100%; height: 100%;"></div>
+    <script type="text/javascript">
+        $(function () {
+            setupLayout().board(setupBoard());
+        });
+    </script>
+</body>
+</html>
