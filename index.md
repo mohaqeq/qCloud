@@ -1,4 +1,4 @@
 qCloud
 ======
 
-QCA Cloud Designer and Simulator
+QCA Circuit Designer
